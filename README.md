@@ -5,6 +5,7 @@ A minimalist GUI for redshift on Raspberry py OS to change screen temperature, w
   * you need the redshift package from the repository, if it's not already installed.
   * download redshift-uing.nim
   * install nim. Easiest way (but not up to date) is from the repository `sudo apt install nim`
+  * install uing (minimal portable GUI toolkit) source `nimble install uing`
   * compile for example with `nim c -d:danger --opt:speed --app:gui`
   * copy the artifact where you want, make executable, create a shortcut and run.
-  * if you trust me (but you shouldn't), you can also download a binary from github release on the right panel.
+  * if you trust me (but you shouldn't), you can also download a binary from github release on the right panel. Otherwise, you may check the python version which doesn't need this cumbersome compilation.
